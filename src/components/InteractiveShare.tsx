@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
-import { Mail, Check, Copy, Download, X, ExternalLink, Share2, Smartphone } from 'lucide-react';
+import { Mail, Check, Copy, Download, X, ExternalLink, Share2, Smartphone, MessageCircle } from 'lucide-react';
 import { Profile } from '../types';
 
 interface InteractiveShareProps {
@@ -158,6 +158,20 @@ export default function InteractiveShare({ profile, isOpen, onClose }: Interacti
               <Download className="h-4 w-4" />
               <span>將聯絡人加入手機 (Download vCard)</span>
             </button>
+
+            <a
+              href={profile.officialLineUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="加入我的官方 LINE（Demo，另開新分頁）"
+              className="w-full flex items-center justify-center gap-2.5 bg-[#06C755] hover:bg-[#05b84d] text-white text-xs font-semibold py-3 px-4 rounded-xl transition-all shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#06C755] focus-visible:ring-offset-2"
+            >
+              <MessageCircle className="h-4 w-4" aria-hidden="true" />
+              <span>加入我的官方 LINE</span>
+              <span className="rounded-full bg-white/20 px-2 py-0.5 text-[9px] uppercase tracking-wider">
+                Demo
+              </span>
+            </a>
 
             <div className="grid grid-cols-2 gap-2">
               <button

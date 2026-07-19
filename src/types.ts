@@ -20,6 +20,7 @@ export interface Profile {
   secondaryBio: string;
   avatarUrl: string;
   email: string;
+  officialLineUrl: string;
   skills: string[];
   socials: {
     platform: string;

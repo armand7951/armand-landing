@@ -8,6 +8,7 @@ export const profileData: Profile = {
   secondaryBio: "我喜愛簡約的設計、直覺的產品體驗，以及健康、充滿自律與成長的每日生活。目前致力於經營共同空間、數據分析工具，以及全台最活躍的創作者成長社群。",
   avatarUrl: "https://lh3.googleusercontent.com/d/1AMkl_wmR6k_QCqk_ZVJY1VmBu37nEza4",
   email: "Armand7951@gmail.com",
+  officialLineUrl: "https://line.me/R/ti/p/@your-line-id",
   skills: [
     "Community Building",
     "Product Strategy",
