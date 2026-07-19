@@ -1,0 +1,6 @@
+{
+  "name": "Armand Personal Portfolio",
+  "description": "An Apple-style minimalist personal website showcasing projects, products, and communities including Gather Taiwan, PikTag, and DayInUp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
